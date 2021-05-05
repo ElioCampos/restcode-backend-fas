@@ -13,7 +13,9 @@ namespace RestCode_WebApplication.Resources
         public string Name { get; set; }
 
         [Required]
-        [MaxLength(3)]
-        public int Quantity { get; set; }
+        public double Price { get; set; }
+
+        [Required]
+        public double CategoryId { get; set; }
     }
 }

@@ -17,11 +17,9 @@ namespace RestCode_WebApplication.Resources
         public string Address { get; set; }
 
         [Required]
-        [MaxLength(9)]
         public int CellPhoneNumber { get; set; }
 
         [Required]
-        [MaxLength(11)]
-        public long Ruc { get; set; }
+        public int OwnerId { get; set; }
     }
 }

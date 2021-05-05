@@ -8,15 +8,22 @@ using System.Threading.Tasks;
 
 namespace RestCode_WebApplication.Mapping
 {
-    public class ModelToResourceProfile : Profile
+    public class ModelToResourceProfile : AutoMapper.Profile
     {
         public ModelToResourceProfile()
         {
             CreateMap<Category, CategoryResource>();
             CreateMap<Product, ProductResource>();
             CreateMap<Restaurant, RestaurantResource>();
-
-
+            CreateMap<Consultant, ConsultantResource>();
+            CreateMap<Publication, PublicationResource>();
+            CreateMap<Comment, CommentResource>();
+            CreateMap<Assignment, AssignmentResource>();
+            CreateMap<Owner, OwnerResource>();
+            CreateMap<Sale, SaleResource>();
+            CreateMap<SaleDetail, SaleDetailResource>();
+            CreateMap<Appointment, AppointmentResource>();
+            CreateMap<Consultancy, ConsultancyResource>();
         }
     }
 }

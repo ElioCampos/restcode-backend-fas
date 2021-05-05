@@ -1,31 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Documents\\GitHub\\RestCodeAPI_WebApplication\\RestCode_WebApplication\\RestCode_WebApplication.csproj": {}
+    "D:\\VisualStudioProjects\\FAS\\restcode-backend-fas\\RestCode_WebApplication\\RestCode_WebApplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Documents\\GitHub\\RestCodeAPI_WebApplication\\RestCode_WebApplication\\RestCode_WebApplication.csproj": {
+    "D:\\VisualStudioProjects\\FAS\\restcode-backend-fas\\RestCode_WebApplication\\RestCode_WebApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Documents\\GitHub\\RestCodeAPI_WebApplication\\RestCode_WebApplication\\RestCode_WebApplication.csproj",
+        "projectUniqueName": "D:\\VisualStudioProjects\\FAS\\restcode-backend-fas\\RestCode_WebApplication\\RestCode_WebApplication.csproj",
         "projectName": "RestCode_WebApplication",
-        "projectPath": "C:\\Users\\user\\Documents\\GitHub\\RestCodeAPI_WebApplication\\RestCode_WebApplication\\RestCode_WebApplication.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Documents\\GitHub\\RestCodeAPI_WebApplication\\RestCode_WebApplication\\obj\\",
+        "projectPath": "D:\\VisualStudioProjects\\FAS\\restcode-backend-fas\\RestCode_WebApplication\\RestCode_WebApplication.csproj",
+        "packagesPath": "C:\\Users\\Lite\\.nuget\\packages\\",
+        "outputPath": "D:\\VisualStudioProjects\\FAS\\restcode-backend-fas\\RestCode_WebApplication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lite\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.0": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -36,7 +37,8 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.0": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
@@ -57,6 +59,32 @@
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
               "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.3, )"
+            },
+            "MySql.Data.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.21, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[5.6.3, )"
             }
           },
           "imports": [
@@ -77,7 +105,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
