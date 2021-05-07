@@ -17,7 +17,6 @@ namespace RestCode_WebApplication.Domain.Models
         public long Ruc { get; set; }
 
         public Restaurant Restaurant { get; set; }
-        public IList<Appointment> Appointments { get; set; } = new List<Appointment>();
-        public IList<Comment> Comments { get; set; } = new List<Comment>();
+
     }
 }

@@ -25,18 +25,6 @@
     <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="5.6.3" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="ConsultancyService\Domain\Models\" />
-    <Folder Include="ConsultancyService\Domain\Repositories\" />
-    <Folder Include="ConsultancyService\Domain\Services\Communication\" />
-    <Folder Include="ConsultancyService\Services\" />
-    <Folder Include="ConsultancyService\Resources\" />
-    <Folder Include="ConsultancyService\Persistence\Repositories\" />
-    <Folder Include="InventoryService\Domain\Models\" />
-    <Folder Include="InventoryService\Domain\Repositories\" />
-    <Folder Include="InventoryService\Domain\Services\Communication\" />
-    <Folder Include="InventoryService\Persistence\Repositories\" />
-    <Folder Include="InventoryService\Resources\" />
-    <Folder Include="InventoryService\Services\" />
     <Folder Include="SaleService\Domain\Models\" />
     <Folder Include="SaleService\Domain\Repositories\" />
     <Folder Include="SaleService\Domain\Services\Communication\" />
