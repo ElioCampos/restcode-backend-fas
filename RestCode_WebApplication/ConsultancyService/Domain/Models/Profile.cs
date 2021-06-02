@@ -15,6 +15,6 @@ namespace RestCode_WebApplication.Domain.Models
         public virtual string Email { get; set; }
         public virtual string Password { get; set; }
 
-        
+
     }
 }

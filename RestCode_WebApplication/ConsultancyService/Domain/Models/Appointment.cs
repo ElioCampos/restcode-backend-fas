@@ -16,7 +16,6 @@ namespace RestCode_WebApplication.Domain.Models
         public int ConsultantId { get; set; }
         public Consultant Consultant { get; set; }
         public int OwnerId { get; set; }
-        public Owner Owner { get; set; }
 
         //Relation One to One with Consultancy
         public Consultancy Consultancy { get; set; }

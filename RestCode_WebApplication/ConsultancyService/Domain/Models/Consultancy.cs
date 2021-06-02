@@ -14,6 +14,5 @@ namespace RestCode_WebApplication.Domain.Models
         public Appointment Appointment { get; set; }
 
         
-        
     }
 }

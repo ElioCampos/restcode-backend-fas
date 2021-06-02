@@ -13,7 +13,6 @@ namespace RestCode_WebApplication.Domain.Models
         public int PublicationId { get; set; }
         public Publication Publication { get; set; }
         public int OwnerId { get; set; }
-        public Owner Owner { get; set; }
         public int ConsultantId { get; set; }
         public Consultant Consultant { get; set; }
     }

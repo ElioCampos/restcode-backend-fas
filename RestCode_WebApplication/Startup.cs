@@ -43,34 +43,23 @@ namespace RestCode_WebApplication
                 //options.UseMySQL(Configuration.GetConnectionString("AzureMySQLConnection"));
             });
 
-            services.AddScoped<ICategoryRepository, CategoryRepository>();
-            services.AddScoped<IProductRepository, ProductRepository>();
-            services.AddScoped<IRestaurantRepository, RestaurantRepository>();
             services.AddScoped<IConsultantRepository, ConsultantRepository>();
             services.AddScoped<IPublicationRepository, PublicationRepository>();
             services.AddScoped<ICommentRepository, CommentRepository>();
             services.AddScoped<IAppointmentRepository, AppointmentRepository>();
             services.AddScoped<IConsultancyRepository, ConsultancyRepository>();
             services.AddScoped<IAssignmentRepository, AssignmentRepository>();
-            services.AddScoped<IOwnerRepository, OwnerRepository>();
-            services.AddScoped<ISaleRepository, SaleRepository>();
-            services.AddScoped<ISaleDetailRepository, SaleDetailRepository>();
+
 
 
             services.AddScoped<IUnitOfWork, UnitOfWork>();
 
-            services.AddScoped<ICategoryService, CategoryService>();
-            services.AddScoped<IProductService, ProductService>();
-            services.AddScoped<IRestaurantService, RestaurantService>();
             services.AddScoped<IConsultantService, ConsultantService>();
             services.AddScoped<IPublicationService, PublicationService>();
             services.AddScoped<ICommentService, CommentService>();
             services.AddScoped<IAppointmentService, AppointmentService>();
             services.AddScoped<IConsultancyService, ConsultancyService>();
             services.AddScoped<IAssignmentService, AssignmentService>();
-            services.AddScoped<IOwnerService, OwnerService>();
-            services.AddScoped<ISaleService, SaleService>();
-            services.AddScoped<ISaleDetailService, SaleDetailService>();
 
             //services.AddSwaggerGen(c => {
             //    c.SwaggerDoc("v1", new OpenApiInfo { Title = "RestCode API", Version = "v1" });

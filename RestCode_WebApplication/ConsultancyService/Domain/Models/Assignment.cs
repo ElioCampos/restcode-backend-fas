@@ -10,7 +10,6 @@ namespace RestCode_WebApplication.Domain.Models
         public int Id { get; set; }
         public bool State { get; set; }
         public int RestaurantId { get; set; }
-        public Restaurant Restaurant { get; set; }
         public int ConsultantId { get; set; }
         public Consultant Consultant { get; set; }
     }
