@@ -24,10 +24,10 @@ namespace RestCode_WebApplication.Services
         {
             return await _categoryRepository.ListAsync();
         }
-        public async Task<IEnumerable<Category>> ListByRestaurantIdAsync(int restaurantId)
-        {
-            return await _categoryRepository.ListByRestaurantIdAsync(restaurantId);
-        }
+        //public async Task<IEnumerable<Category>> ListByRestaurantIdAsync(int restaurantId)
+        //{
+        //    return await _categoryRepository.ListByRestaurantIdAsync(restaurantId);
+        //}
 
         public async Task<CategoryResponse> GetByIdAsync(int id)
         {

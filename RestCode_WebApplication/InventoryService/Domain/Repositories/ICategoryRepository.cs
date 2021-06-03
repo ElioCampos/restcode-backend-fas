@@ -9,7 +9,6 @@ namespace RestCode_WebApplication.Domain.Repositories
     public interface ICategoryRepository
     {
         Task<IEnumerable<Category>> ListAsync();
-        Task<IEnumerable<Category>> ListByRestaurantIdAsync(int restaurantId);
         Task AddAsync(Category category);
         Task<Category> FindById(int id);
         void Update(Category category);

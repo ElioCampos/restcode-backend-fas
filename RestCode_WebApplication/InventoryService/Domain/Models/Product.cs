@@ -14,6 +14,5 @@ namespace RestCode_WebApplication.Domain.Models
         public int CategoryId { get; set; }
         public Category Category { get; set; }
 
-        public IList<SaleDetail> SaleDetails { get; set; } = new List<SaleDetail>();
     }
 }

@@ -15,7 +15,7 @@ namespace RestCode_WebApplication.Persistence.Repositories
 
         public async Task<IEnumerable<Category>> ListAsync()
         {
-            return await _context.Categories.Include(p => p.Restaurant).ToListAsync();
+            return await _context.Categories.ToListAsync();
         }
 
         public async Task AddAsync(Category category)
@@ -28,11 +28,6 @@ namespace RestCode_WebApplication.Persistence.Repositories
             return await _context.Categories.FindAsync(id);
         }
 
-        public async Task<IEnumerable<Category>> ListByRestaurantIdAsync(int restaurantId) =>
-           await _context.Categories
-           .Where(p => p.RestaurantId == restaurantId)
-           .Include(p => p.Restaurant)
-           .ToListAsync();
 
         public void Update(Category category)
         {
