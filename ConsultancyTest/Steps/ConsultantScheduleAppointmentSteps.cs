@@ -32,7 +32,7 @@ namespace ConsultancyTest.Steps
                 CurrentDateTime = DateTime.Parse("2020/10/29"),
                 ScheduleDateTime = DateTime.Parse("2020/11/07"),
                 Topic = "Topic1",
-                MeetLink = "meet.google.com.mez-uwgg-obk"
+                MeetLink = "meet.google.com.mez-uwgg-obk"   
             };
             restRequest.AddJsonBody(appointment);
             response = restClient.Execute(restRequest);

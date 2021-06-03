@@ -28,6 +28,9 @@
     <Compile Update="Features\ConsultantScheduleAppointment.feature.cs">
       <DesignTime>True</DesignTime>
     </Compile>
+    <Compile Update="Features\RestaurantGiveAssignment.feature.feature.cs">
+      <DesignTime>True</DesignTime>
+    </Compile>
   </ItemGroup>
 
   <ItemGroup>
@@ -38,6 +41,10 @@
     <SpecFlowFeatureFiles Update="Features\ConsultantScheduleAppointment.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>ConsultantScheduleAppointment.feature.cs</LastGenOutput>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Features\RestaurantGiveAssignment.feature.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>RestaurantGiveAssignment.feature.feature.cs</LastGenOutput>
     </SpecFlowFeatureFiles>
   </ItemGroup>
 
