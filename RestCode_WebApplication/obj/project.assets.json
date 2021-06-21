@@ -7982,19 +7982,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Lite\\.nuget\\packages\\": {}
+    "C:\\Users\\user\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\VisualStudioProjects\\FAS\\restcode-backend-fas\\RestCode_WebApplication\\RestCode_WebApplication.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Documents\\GitHub\\restcode-backend-fas\\RestCode_WebApplication\\RestCode_WebApplication.csproj",
       "projectName": "RestCode_WebApplication",
-      "projectPath": "D:\\VisualStudioProjects\\FAS\\restcode-backend-fas\\RestCode_WebApplication\\RestCode_WebApplication.csproj",
-      "packagesPath": "C:\\Users\\Lite\\.nuget\\packages\\",
-      "outputPath": "D:\\VisualStudioProjects\\FAS\\restcode-backend-fas\\RestCode_WebApplication\\obj\\",
+      "projectPath": "C:\\Users\\user\\Documents\\GitHub\\restcode-backend-fas\\RestCode_WebApplication\\RestCode_WebApplication.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\user\\Documents\\GitHub\\restcode-backend-fas\\RestCode_WebApplication\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Lite\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
