@@ -5,8 +5,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "inventoryservice.eastus.azurecontainer.io",
-          "Port": 80
+          "Host": "localhost",
+          "Port": 8080
         }
       ],
       "UpstreamPathTemplate": "/inventory-service/{url}",
@@ -17,8 +17,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "salesservice.eastus.azurecontainer.io",
-          "Port": 80
+          "Host": "localhost",
+          "Port": 8082
         }
       ],
       "UpstreamPathTemplate": "/sales-service/{url}",
@@ -30,8 +30,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "consultancyservice.eastus.azurecontainer.io",
-          "Port": 80
+          "Host": "localhost",
+          "Port": 8081
         }
       ],
       "UpstreamPathTemplate": "/consultancy-service/{url}",
