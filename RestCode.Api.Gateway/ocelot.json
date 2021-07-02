@@ -1,0 +1,47 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/{url}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "inventoryservice.eastus.azurecontainer.io",
+          "Port": 80
+        }
+      ],
+      "UpstreamPathTemplate": "/inventory-service/{url}",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/{url}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "salesservice.eastus.azurecontainer.io",
+          "Port": 80
+        }
+      ],
+      "UpstreamPathTemplate": "/sales-service/{url}",
+      "UpstreamHttpMethod": [ "Get" ],
+      "Priority": 0
+    },
+    {
+      "DownstreamPathTemplate": "/{url}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "consultancyservice.eastus.azurecontainer.io",
+          "Port": 80
+        }
+      ],
+      "UpstreamPathTemplate": "/consultancy-service/{url}",
+      "UpstreamHttpMethod": [ "Get" ],
+      "Priority": 0
+    }
+    
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:5021"
+  }
+}
+
